@@ -1,0 +1,14 @@
+CREATE TABLE projects(
+    name VARCHAR(255),
+    url VARCHAR(255),
+    description VARCHAR(255), 
+    techUsed VARCHAR(255),
+    imgUrl VARCHAR(255), 
+    id serial PRIMARY KEY
+);
+
+INSERT INTO projects (name, url, description, imgUrl, techUsed)
+VALUES('Star Wars Poster', 'https://starwarsempireposter.firebaseapp.com/','This is some practice with CSS and HTML to make a StarWars poster', 'shorturl.at/nSTVX', 'CSS HTML')
+
+INSERT INTO projects (name, url, description, imgUrl, techUsed)
+VALUES('Matrix Poster', 'https://dynamicmatrixcssposter.firebaseapp.com/','This is some practice making a Matrix poster with CSS & HTML', 'shorturl.at/gkn14', 'CSS HTML')
