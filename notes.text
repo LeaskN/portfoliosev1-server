@@ -12,3 +12,12 @@ VALUES('Star Wars Poster', 'https://starwarsempireposter.firebaseapp.com/','This
 
 INSERT INTO projects (name, url, description, imgUrl, techUsed)
 VALUES('Matrix Poster', 'https://dynamicmatrixcssposter.firebaseapp.com/','This is some practice making a Matrix poster with CSS & HTML', 'shorturl.at/gkn14', 'CSS HTML')
+
+
+STEPS:
+CREATE env.js in server directory
+Copy pool data to env.js object
+export object
+require env.js in queries
+use new information in queries pool
+add env.js to .gitignore file
